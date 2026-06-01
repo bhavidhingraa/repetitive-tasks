@@ -1,9 +1,6 @@
 Clear Google Chrome cache: ~/Library/Caches/Google/
 Run yarn cache clean to clear Yarn cache
-Run npm cache clean --force for npm cache cleanup
 Clean go build cache: go clean -cache
 Use pip cache purge to clean pip cache
 Rotate or delete old JetBrains logs: ~/Library/Logs/JetBrains/
 Clear Claude status log: ~/.claude/statusline.log
-Empty Trash regularly: Run rm -rf ~/.Trash/*
-Remove iOS device backups: Check ~/Library/Application Support/MobileSync/
