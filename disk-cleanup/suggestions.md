@@ -1,0 +1,20 @@
+- Enable "Empty Trash" after 30 days in Safari preferences
+- Consider using npm ci instead of npm install to avoid cache bloat
+- Consider using virtual environments to isolate dependencies
+- Set up log rotation using logrotate for custom applications
+- Enable automatic log cleanup in System Preferences > Time Machine
+- Close unused Chrome tabs: Each tab consumes ~50-100 MB RAM
+- Use Chrome tab groups: Helps identify and close unnecessary tabs
+- Restart browser periodically: Clears memory leaks in long-running processes
+- Consider browser alternatives: Firefox uses less memory for same workload
+- Disable unused Chrome extensions: Reduces background memory footprint
+- Clean Downloads folder: Review and remove old installers
+- Use Storage Management: Apple Menu > About This Mac > Storage > Manage
+- Compress old files: Use zip -9 for rarely accessed data
+- Create a monthly cron job to clean temporary files: sudo periodic daily
+- Use cleanmgr equivalent on macOS via Homebrew: brew install bmp
+- Reduce login items: System Settings > General > Login Items
+- Disable Spotlight indexing for excluded folders: sudo mdutil -i off /path
+- Close background apps: Monitor Activity Monitor for high-CPU processes
+- Use Energy Saver mode when on battery for memory compression
+- Keep macOS updated: Latest versions have better memory management
