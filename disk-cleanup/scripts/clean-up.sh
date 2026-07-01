@@ -1,12 +1,11 @@
 # Clear caches
-rm -rf ~/Library/Caches/Google/*
-rm -rf ~/Library/Caches/ms-playwright
-rm -rf ~/Library/Caches/com.trae.app.ShipIt ~/Library/Caches/com.anthropic.claudefordesktop.ShipIt
-rm -rf ~/Library/Caches/camoufox
-rm -rf ~/Library/Caches/Trae/
+rm -rf ~/Library/Caches/*
 
 # pnpm package manager content-addressable storage. Can be regenerated.
 pnpm store prune
+
+# Python `uv` package cache
+uv cache clean
 
 # Clear Yarn cache
 yarn cache clean
@@ -25,3 +24,6 @@ rm -rf ~/Library/Logs/zoom.us/
 
 # Clear Claude status log
 rm  ~/.claude/statusline.log
+
+~/.cache/opencode
+~/.cache/puppeteer
